@@ -1,4 +1,7 @@
-:root {}
+:root {
+  --primary: ##d2c2a1;
+  --background: rgba(26, 25, 25, 0.902);
+}
 
 * {
   font-family: 'Cormorant', serif;
@@ -58,6 +61,8 @@ footer {
   /* color: rgb(148, 173, 141); */
   color: #d2c2a1;
   border-radius: 5%;
+
+
 }
 
 
@@ -71,11 +76,17 @@ footer {
   margin-left: 10rem;
 }
 
-.about-image {
+.video {
+  margin-right: 8rem;
+  margin-top: 8rem;
+}
+
+
+/* .about-image {
   max-width: 750px;
   max-height: 500px;
   border-radius: 5%;
-}
+} */
 
 .yellow-card {
   position: relative;
@@ -87,8 +98,8 @@ footer {
 }
 
 .dark-card {
-  bottom: -25%;
-  left: 46.5%;
+  bottom: -30%;
+  left: 42.5%;
   position: absolute;
   background-color: rgb(245, 245, 245);
   color: rgb(69, 64, 64);
@@ -151,7 +162,7 @@ footer {
   }
 
   .small-card {
-    margin-bottom: none;
+    margin-bottom: .5rem;
     margin-top: none;
     margin-left: none;
     margin-right: none;
