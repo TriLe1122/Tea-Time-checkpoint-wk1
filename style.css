@@ -1,0 +1,167 @@
+:root {}
+
+* {
+  font-family: 'Cormorant', serif;
+}
+
+header {
+  background: rgba(27, 26, 26, 0.9);
+
+}
+
+footer {
+  background: rgba(27, 26, 26, 0.9);
+
+}
+
+
+/* body {
+  color: rgb(11, 83, 11);
+} */
+
+.btn {
+  /* color: rgb(148, 173, 141);
+  border: 1px solid rgb(148, 173, 141); */
+  color: #d2c2a1;
+  border: 1px solid #d2c2a1;
+  ;
+}
+
+.icon {
+  color: #d2c2a1;
+}
+
+
+.hero {
+  /* background-image: url(https://images.unsplash.com/photo-1625737483850-f872fb1d38b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2737&q=80); */
+  /* height: 70vh;
+  background-position: center;
+  background-size: cover; */
+  padding: 3rem;
+}
+
+.hero-img {
+  /* background-image: url(https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); */
+  background-image: url(https://images.unsplash.com/photo-1550450339-e7a4787a2074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2752&q=80);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.hero-form {
+  height: 80%;
+}
+
+.glass-card {
+  background: rgba(31, 31, 31, 0.87);
+  /* color: rgb(148, 173, 141); */
+  color: #d2c2a1;
+  border-radius: 5%;
+}
+
+
+
+
+.corner {
+  border-radius: 5%;
+}
+
+.lorem {
+  margin-left: 10rem;
+}
+
+.about-image {
+  max-width: 750px;
+  max-height: 500px;
+  border-radius: 5%;
+}
+
+.yellow-card {
+  position: relative;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #d2c2a1;
+  align-items: center;
+}
+
+.dark-card {
+  bottom: -25%;
+  left: 46.5%;
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  color: rgb(69, 64, 64);
+  border-radius: 5%;
+}
+
+
+
+.small-card {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: start;
+}
+
+.footer {
+  padding-left: 20%;
+}
+
+
+
+/* SECTION changes when on mobile!!!!!!!!!!!!!!! */
+
+@media screen AND (max-width: 768px) {
+
+  header {
+    font-size: 16pt;
+  }
+
+  .form {
+    align-items: center;
+    border: none;
+  }
+
+  .dark-card {
+    position: static;
+    width: fit-content;
+    border-radius: 0;
+    background: none;
+    color: #d2c2a1;
+    padding-left: 2rem;
+    margin: .5rem;
+  }
+
+  .about-image {
+    margin-right: 4rem;
+  }
+
+  .small-card {
+    margin-bottom: none;
+    margin-top: none;
+    margin-left: none;
+    margin-right: none;
+    text-align: center;
+  }
+
+  .big-card {
+    margin-bottom: 1rem;
+  }
+
+  .yellow-card {
+    padding-left: none;
+    padding-right: 2rem;
+    padding-top: none;
+    padding-bottom: none;
+    justify-content: center;
+    width: fit-content;
+    color: #d2c2a1;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+}

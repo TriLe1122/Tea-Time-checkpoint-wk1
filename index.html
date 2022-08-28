@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <link rel="shortcut icon"
+    href="https://images.unsplash.com/photo-1628153792464-21bffac488d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+    type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Tea Time</title>
+</head>
+
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 5px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 5px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 5px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+
+<body class="hero-img ">
+  <!-- SECTION header navbar -->
+  <header class="sticky-top">
+    <nav class="navbar   d-block d-md-block">
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-12 d-flex">
+            <i class="mdi mdi-kettle-steam fs-1 icon pe-5 ps-5"></i>
+            <h4 class="text-light pt-3 fs-2">Good Tea Is It's Own Reward</h4>
+          </div>
+        </div>
+    </nav>
+
+  </header>
+
+
+
+  <!-- SECTION hero -->
+  <section class="hero container-fluid  pt-3  justify-content-center">
+    <div class="row  justify-content-center ">
+
+      <div class="col-12 col-md-3 glass-card hero-form p-4  form me-sm-5">
+        <form>
+          <!--NOTE hero form start-->
+          <!-- Name input -->
+          <div class="form-outline  ">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Spill the Tea</label>
+          </div>
+
+
+          <!-- Submit button -->
+          <button type="submit" class="btn  btn-block mb-4">Send</button>
+        </form>
+      </div>
+
+      <div class="col-12 col-md-6 d-none d-md-block mt-5">
+        <div class=" d-flex lorem p-3">
+          <div class="text-light fs-3 fw-bold">
+            <p>“If you are cold, tea will warm you;</p>
+            <p>if you are too heated, it will cool you;</p>
+            <p>If you are depressed, it will cheer you;</p>
+            <p>If you are excited, it will calm you.”
+              – William Ewart Gladstone</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION  info cards -->
+  <section class="container">
+    <div class="row  glass-card mb-5 flex-start">
+      <div class=" col-md-4 order-1 order-md-0 yellow-card  text-start d-flex flex-column flex-start ps-5 ">
+        <h1>The Japanese Way</h1>
+        <h2> </h2>
+        <p class=""> The first documented evidence
+          of tea in Japan dates to the 9th century. It is found in an entry in the Nihon Kōki having
+          to do with the Buddhist monk Eichū (永忠), who had brought some tea back to Japan on his return from China</p>
+      </div>
+      <!-- NOTE spill over card start -->
+      <div class="col-12 col-md-6 glass-card  pt-4 mt-5  order-0 order-md-1 dark-card ">
+        <h3 class="text-center">Some Tea Facts</h3>
+        <!-- ANCHOR -->
+        <div class=" text-card  d-flex">
+          <i class="mdi mdi-leaf fs-1 p-2"></i>
+          <div class="pt-3">
+
+            <p class="pt-2">The first written evidence of making Asian tea dates back to a Chinese work from 59 B.C.
+
+            </p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <i class="mdi mdi-leaf fs-1 p-2"></i>
+          <div class="pt-3">
+
+            <p class="pt-2">Tea plants will continue to grow into trees up to 50 feet tall if not continuously pruned
+            </p>
+          </div>
+        </div>
+        <div class=" text-card d-flex">
+          <i class="mdi mdi-leaf fs-1 p-2"></i>
+          <div class="pt-3">
+
+            <p class="pt-2">All varieties of tea come from parts of the same plant: Camellia sinensis
+              T
+          </div>
+        </div>
+        <div class=" text-card d-flex">
+          <i class="mdi mdi-leaf fs-1 p-2"></i>
+          <div class="pt-3">
+
+            <p class="pt-2">Tea plants will continue to grow into trees up to 50 feet tall if not
+              continuously pruned
+            </p>
+          </div>
+        </div>
+        <p class=" fs-3 text-center fw-bold">
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION about -->
+  <section class="container">
+    <div class="row p-5 justify-content-around">
+      <div class="col-12 col-md-5 mt-5  ">
+        <img class="about-image"
+          src="https://images.unsplash.com/photo-1565117661210-fd54898de423?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          alt="">
+      </div>
+      <div class="col-12 col-md-6 pt-5 p-5 text-end glass-card mt-5">
+        <h1>Closely intertwined with Buddhism</h1>
+        <h3>Especially Zen buddhism</h3>
+        <p>Tea ceremony involves following dozens of prescribed steps so that one does not have to think about the next
+          step and
+          gain inner peace while performing this ritualistic activity. That is why tea ceremony cannot be considered
+          separately
+          from the zen. Tea ceremony also has the values of vabi sabi (natural, simple and minimalistic things are
+          better) which
+          are deeply embedded in Zen Buddhism</p>
+        <a class="btn btn-outline-light btn-link"
+          href="https://en.wikipedia.org/wiki/Japanese_tea_ceremony#:~:text=Zen%20Buddhism%20was%20a%20primary,opposed%20to%20chanoyu%20or%20chad%C5%8D."
+          role="button">Info</a>
+        <!-- <button type="button " class="">Info</button> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION testimonials -->
+  <section class="container  ">
+    <div class="row  justify-content-center corner p-5 ">
+      <!-- <div class="col-3 bg-light m-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus
+          nihil
+          accusamus
+          saepe at qui obcaecati exercitationem dolorem reprehenderit, voluptates tempore enim quaerat sit non adipisci,
+          veritatis repudiandae rerum architecto.</div>
+        <div class="col-3 bg-light m-5 p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fugit
+          reiciendis eum
+          facilis necessitatibus, amet quo dolorem soluta minima, aliquid laudantium expedita accusantium velit in
+          veniam asperiores exercitationem! Accusantium, natus? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Obcaecati a quo rerum rem eos ex sunt iure quibusdam minima est, illo atque alias iusto, expedita amet nam
+          ipsum vero laudantium.</div>
+        <div class="col-3 bg-light m-5 p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dolorum
+          odio
+          cumque porro
+          iusto sapiente non doloremque deserunt quidem sed, ex aliquid, necessitatibus nulla dolor! Praesentium
+          aspernatur odio modi itaque!</div> -->
+      <div class="c-12 col-md-4 card order-1 order-md-0  glass-card small-card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+
+      <!--NOTE second card is bigger and changes order on mobile-->
+      <div class="c-12 col-md-4 card glass-card order-0 order-md-0 big-card text-center" style="width: 18rem;">
+        <div class="card-body ">
+          <i class="  mdi mdi-turtle "></i><i class="  mdi mdi-turtle "></i><i class="  mdi mdi-turtle "></i>
+          <i class="  mdi mdi-turtle "></i><i class="  mdi mdi-turtle  "></i>
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+          <!-- <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a> -->
+        </div>
+      </div>
+      <div class="c-12 col-md-4 card  glass-card small-card text-justify" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION closing stuff -->
+  <!-- <section class="container">
+    <div class="row ps-5 pe-5 mb-5 pt-3 glass-card">
+      <div class="col-12  text-start">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p class="fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ratione autem impedit.
+          Officia, aliquam
+          dolor.</p>
+      </div>
+    </div>
+  </section> -->
+  <section class="container">
+    <div class="row  p-3 footer justify-content-center">
+      <div class="col-md-6 glass-card d-flex flex-row justify-content-center align-items-center rounded text-center">
+        <h4>Share your love of tea here!
+          <div class="d-flex justify-content-center justify-content-around justify-content-between mt-3 ms-5 me-5">
+            <i class="mdi mdi-twitter"></i>
+            <i class="mdi mdi-facebook"></i>
+            <i class="mdi mdi-instagram"></i>
+            <i class="mdi mdi-skype"></i>
+            <i class="mdi mdi-linkedin"></i>
+          </div>
+        </h4>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION footer -->
+  <footer>
+    <section class="container">
+      <div class="row ps-5 pe-5 mt-5 pt-3 text-muted glass-card">
+        <div class="col-12  text-center justify-content-center  mt-2 d-flex">
+          <i class="mdi mdi-copyright m-2"></i>
+          <p class="fs-4 ">CopyRight.</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+</body>
+
+</html>
