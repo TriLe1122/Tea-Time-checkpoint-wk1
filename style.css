@@ -82,11 +82,12 @@ footer {
 }
 
 
-/* .about-image {
+.about-image {
   max-width: 750px;
   max-height: 500px;
   border-radius: 5%;
-} */
+  margin-left: 4rem;
+}
 
 .yellow-card {
   position: relative;
