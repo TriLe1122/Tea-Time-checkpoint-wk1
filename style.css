@@ -57,7 +57,7 @@ footer {
 }
 
 .glass-card {
-  background: rgba(31, 31, 31, 0.87);
+  background: rgba(31, 31, 31, 0.64);
   /* color: rgb(148, 173, 141); */
   color: #d2c2a1;
   border-radius: 5%;
@@ -188,6 +188,15 @@ footer {
     align-items: center;
 
 
+  }
+
+  .video {
+    max-width: fit-content;
+
+  }
+
+  .navbar {
+    border-bottom: 2px solid whitesmoke;
   }
 
 }
